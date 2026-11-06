@@ -1,0 +1,11 @@
+pandas>=2.2,<3
+numpy>=1.26,<3
+scikit-learn>=1.5,<2
+streamlit>=1.67,<2
+plotly>=5.24,<7
+matplotlib>=3.9,<4
+openai>=1.66,<3
+python-dotenv>=1,<2
+joblib>=1.4,<2
+pytest>=8,<10
+ruff>=0.9,<1

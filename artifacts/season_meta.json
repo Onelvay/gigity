@@ -1,0 +1,223 @@
+{
+  "version": "leicester-1",
+  "team": "Leicester City",
+  "matches": 38,
+  "players": 23,
+  "reference_matches": 380,
+  "rating_weights": {
+    "Вратари": {
+      "saves": 0.3,
+      "save_pct": 0.3,
+      "completion_pct": 0.15,
+      "collections": 0.15,
+      "sweeps": 0.1
+    },
+    "Защитники": {
+      "tackles_won": 0.25,
+      "successful_interceptions": 0.2,
+      "blocks": 0.15,
+      "clearances": 0.1,
+      "recoveries": 0.15,
+      "completion_pct": 0.15
+    },
+    "Полузащитники": {
+      "recoveries": 0.2,
+      "tackles_won": 0.1,
+      "successful_interceptions": 0.1,
+      "progressive_passes": 0.2,
+      "key_passes": 0.15,
+      "xa": 0.15,
+      "completion_pct": 0.1
+    },
+    "Атакующая полузащита": {
+      "nonpenalty_goals": 0.2,
+      "xa": 0.2,
+      "assists": 0.15,
+      "key_passes": 0.15,
+      "progressive_passes": 0.15,
+      "dribbles_won": 0.1,
+      "completion_pct": 0.05
+    },
+    "Нападающие": {
+      "nonpenalty_goals": 0.25,
+      "npxg": 0.15,
+      "finishing": 0.15,
+      "xa": 0.2,
+      "key_passes": 0.1,
+      "shots_on_target": 0.1,
+      "dribbles_won": 0.05
+    }
+  },
+  "reference": {
+    "Вратари": {
+      "saves": {
+        "weight": 0.3,
+        "rows": 730,
+        "median": 3.0
+      },
+      "save_pct": {
+        "weight": 0.3,
+        "rows": 706,
+        "median": 71.42857142857143
+      },
+      "completion_pct": {
+        "weight": 0.15,
+        "rows": 730,
+        "median": 56.35
+      },
+      "collections": {
+        "weight": 0.15,
+        "rows": 730,
+        "median": 1.0
+      },
+      "sweeps": {
+        "weight": 0.1,
+        "rows": 730,
+        "median": 0.0
+      }
+    },
+    "Защитники": {
+      "tackles_won": {
+        "weight": 0.25,
+        "rows": 3066,
+        "median": 1.0
+      },
+      "successful_interceptions": {
+        "weight": 0.2,
+        "rows": 3066,
+        "median": 0.0
+      },
+      "blocks": {
+        "weight": 0.15,
+        "rows": 3066,
+        "median": 2.0
+      },
+      "clearances": {
+        "weight": 0.1,
+        "rows": 3066,
+        "median": 5.0
+      },
+      "recoveries": {
+        "weight": 0.15,
+        "rows": 3066,
+        "median": 3.0
+      },
+      "completion_pct": {
+        "weight": 0.15,
+        "rows": 3066,
+        "median": 77.8
+      }
+    },
+    "Полузащитники": {
+      "recoveries": {
+        "weight": 0.2,
+        "rows": 1752,
+        "median": 5.613598608782256
+      },
+      "tackles_won": {
+        "weight": 0.1,
+        "rows": 1752,
+        "median": 1.9183673469387754
+      },
+      "successful_interceptions": {
+        "weight": 0.1,
+        "rows": 1752,
+        "median": 1.0
+      },
+      "progressive_passes": {
+        "weight": 0.2,
+        "rows": 1752,
+        "median": 11.2189226519337
+      },
+      "key_passes": {
+        "weight": 0.15,
+        "rows": 1752,
+        "median": 1.0
+      },
+      "xa": {
+        "weight": 0.15,
+        "rows": 1752,
+        "median": 0.007006493506493507
+      },
+      "completion_pct": {
+        "weight": 0.1,
+        "rows": 1752,
+        "median": 82.5
+      }
+    },
+    "Атакующая полузащита": {
+      "nonpenalty_goals": {
+        "weight": 0.2,
+        "rows": 1040,
+        "median": 0.0
+      },
+      "xa": {
+        "weight": 0.2,
+        "rows": 1040,
+        "median": 0.07524193548387097
+      },
+      "assists": {
+        "weight": 0.15,
+        "rows": 1040,
+        "median": 0.0
+      },
+      "key_passes": {
+        "weight": 0.15,
+        "rows": 1040,
+        "median": 1.1501639708380151
+      },
+      "progressive_passes": {
+        "weight": 0.15,
+        "rows": 1040,
+        "median": 6.0
+      },
+      "dribbles_won": {
+        "weight": 0.1,
+        "rows": 1040,
+        "median": 1.169591137081384
+      },
+      "completion_pct": {
+        "weight": 0.05,
+        "rows": 1040,
+        "median": 75.0
+      }
+    },
+    "Нападающие": {
+      "nonpenalty_goals": {
+        "weight": 0.25,
+        "rows": 1900,
+        "median": 0.0
+      },
+      "npxg": {
+        "weight": 0.15,
+        "rows": 1900,
+        "median": 0.15262392115346535
+      },
+      "finishing": {
+        "weight": 0.15,
+        "rows": 1900,
+        "median": -0.0681391492601156
+      },
+      "xa": {
+        "weight": 0.2,
+        "rows": 1900,
+        "median": 0.052052631578947364
+      },
+      "key_passes": {
+        "weight": 0.1,
+        "rows": 1900,
+        "median": 1.0
+      },
+      "shots_on_target": {
+        "weight": 0.1,
+        "rows": 1900,
+        "median": 1.0
+      },
+      "dribbles_won": {
+        "weight": 0.05,
+        "rows": 1900,
+        "median": 1.0882724497315506
+      }
+    }
+  }
+}

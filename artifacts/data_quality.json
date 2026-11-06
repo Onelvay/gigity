@@ -1,0 +1,11 @@
+{
+  "matches": 380,
+  "events": 1313773,
+  "shots": 9908,
+  "score_mismatches": 0,
+  "invalid_shot_xg": 0,
+  "invalid_shot_coordinates": 1,
+  "gross_coordinate_errors": 0,
+  "own_goals": 38,
+  "excluded_own_xg_shots": 1
+}
